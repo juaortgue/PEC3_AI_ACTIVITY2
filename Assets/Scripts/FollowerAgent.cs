@@ -66,9 +66,7 @@ public class FollowerAgent : Agent
             if (other.gameObject.name==targetName)
             {
                  DoSuccessAction();
-            }/*else if(other.gameObject.tag=="Obstacle"){
-                SetReward(-1.0f);
-            }*/
+            }
         }
         private void DoSuccessAction(){
             SetReward(1.0f);
